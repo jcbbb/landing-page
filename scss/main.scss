@@ -189,6 +189,9 @@ h1, h2, h3, h4 {
 }
 
 @media only screen and (max-width: 720px) {
+    .wrapper {
+        height: auto;
+    }
     .hero {
         &__form {
             flex-direction: column;
